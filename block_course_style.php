@@ -38,7 +38,8 @@ class block_course_style extends block_base {
         $record = $DB->get_record('block_course_style', ['course' => $COURSE->id]);
         if ($record) {
             echo '<style>
-        #page, #page-content, #region-main, #topofscroll, .course-content .cards { background-color: ' . $record->bgcolor_general . ' !important; }
+.course-content .cards {display: none;}
+        #page, #page-content, #region-main, #topofscroll { background-color: ' . $record->bgcolor_general . ' !important; }
         #page-header .page-context-header { color: ' . $record->color_text . '; }
         .form-group.row.fitem, 
         .region_main_settings_menu_proxy, 
