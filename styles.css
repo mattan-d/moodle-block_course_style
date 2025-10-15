@@ -1,0 +1,12 @@
+#page-blocks-course_style-update_style input#bgcolor_general {
+    position: relative;
+    left : 600px
+    /* top: 00px */
+￼}
+#page-blocks-course_style-update_style input[type=color] {
+    margin-top: 8px;
+    background-color: rgba(0,255,255,0.0)
+}
+#page-blocks-course_style-update_style .form-group.row.fitem {
+    height: 40px;
+}
